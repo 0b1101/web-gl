@@ -1,0 +1,47 @@
+* WebGL
+
+This repository presents a short study of the API WebGL. 
+
+[[file:readme_gifs/overall.gif]]
+
+** Description 
+The project presents three objects:
+- An animated and autonomous object;
+- An object of which the color can be changed by the user.
+- An object of which the rotation can be controlled by the user;
+
+The visual representation below depicts the first object, which is the autonomous one.
+
+[[file:readme_gifs/first-object.gif]]
+
+Next is the object whose color can be changed by the user. By default, its color is a gradient type. However, that can be changed by pressing '1' for solid colors and '2' for the default gradient option as illustrated below:
+
+[[file:readme_gifs/second-object.gif]]
+
+The last one is the one whose rotation can be controlled by the user. The controls for this object is as it follows:
+
+- W: increases the 'x' rotation index. The effect produced is:
+[[file:readme_gifs/W.gif]]
+
+- S: decreases the 'x' rotation index. The effect produced is:
+[[file:readme_gifs/S.gif]]
+
+- D: increases the 'y' rotation index. The effect produced is:
+[[file:readme_gifs/D.gif]]
+
+- A: decreases the 'y' rotation index. The effect produced is:
+[[file:readme_gifs/A.gif]]
+
+
+-----
+
+*** Updates
+
+- November 12th, 2021: Project started.
+- November 24th, 2021: Project completed. 
+- January 27th, 2024: English documentation and public release of the code. 
+
+
+
+*** Further Information 
+The code presented in this repository was delivered as a project in the 'Visual Computing' course @ POLI-USP.
